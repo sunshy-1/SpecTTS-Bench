@@ -21,8 +21,8 @@ bench_NAME="SpecTTS_Bench"
 torch_dtype="float16"
 
 ## Reasoning Under Multi-Round Thinking
-# TEMP=0.0
-# MODEL_PATCH="DEEPSEEK" CUDA_VISIBLE_DEVICES=${GPU_DEVICES} python -m evaluation.inference_baseline --model-path $DeepSeek_PATH --ea-model-path $Eagle3_PATH --model-id ${MODEL_NAME}-vanilla-${torch_dtype}-temp-${TEMP} --bench-name $bench_NAME --temperature $TEMP --dtype $torch_dtype --max-new-tokens 15000 --use-cot-data --think-twice
+TEMP=0.0
+MODEL_PATCH="DEEPSEEK" CUDA_VISIBLE_DEVICES=${GPU_DEVICES} python -m evaluation.inference_baseline --model-path $DeepSeek_PATH --ea-model-path $Eagle3_PATH --model-id ${MODEL_NAME}-vanilla-${torch_dtype}-temp-${TEMP} --bench-name $bench_NAME --temperature $TEMP --dtype $torch_dtype --max-new-tokens 15000 --use-cot-data --think-twice
 # CUDA_VISIBLE_DEVICES=${GPU_DEVICES} python -m evaluation.inference_eagle3 --ea-model-path $Eagle3_PATH --base-model-path $DeepSeek_PATH --model-id ${MODEL_NAME}-eagle3-${torch_dtype} --bench-name $bench_NAME --temperature $TEMP --dtype $torch_dtype --max-new-tokens 15000 --use-cot-data --think-twice
 # MODEL_PATCH="DEEPSEEK" CUDA_VISIBLE_DEVICES=${GPU_DEVICES} python -m evaluation.inference_samd --model-path $DeepSeek_PATH --model-id ${MODEL_NAME}-samd-eagle3-${torch_dtype}-temp-${TEMP} --bench-name $bench_NAME --temperature $TEMP --dtype $torch_dtype --samd_n_predicts 40 --samd_len_threshold 5 --samd_len_bias 5 --tree_method eagle3 --attn_implementation sdpa --tree_model_path $Eagle3_PATH --max-new-tokens 15000 --use-cot-data --think-twice
 # MODEL_PATCH="DEEPSEEK" CUDA_VISIBLE_DEVICES=${GPU_DEVICES} python -m evaluation.inference_samd --model-path $DeepSeek_PATH --model-id ${MODEL_NAME}-samd-only-${torch_dtype}-temp-${TEMP} --bench-name $bench_NAME --temperature $TEMP --dtype $torch_dtype --samd_n_predicts 40 --samd_len_threshold 5 --samd_len_bias 5 --attn_implementation sdpa --tree_model_path $Eagle3_PATH --max-new-tokens 15000 --use-cot-data --think-twice
