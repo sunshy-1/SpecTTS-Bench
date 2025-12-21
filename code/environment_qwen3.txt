@@ -1,0 +1,133 @@
+# packages in environment at /home/user/anaconda3/envs/spb_q3:
+#
+# Name                    Version                   Build  Channel
+_libgcc_mutex             0.1                 conda_forge    conda-forge
+_openmp_mutex             4.5                       2_gnu    conda-forge
+accelerate                1.8.1                     <pip>
+aiofiles                  23.2.1                    <pip>
+aiohappyeyeballs          2.6.1                     <pip>
+aiohttp                   3.12.12                   <pip>
+aiosignal                 1.3.2                     <pip>
+altair                    5.5.0                     <pip>
+anthropic                 0.5.0                     <pip>
+anyio                     3.7.1                     <pip>
+async-timeout             5.0.1                     <pip>
+attrs                     25.3.0                    <pip>
+bitsandbytes              0.42.0                    <pip>
+bzip2                     1.0.8                h7f98852_4    conda-forge
+ca-certificates           2022.9.24            ha878542_0    conda-forge
+certifi                   2025.4.26                 <pip>
+charset-normalizer        3.4.2                     <pip>
+click                     8.2.1                     <pip>
+contourpy                 1.3.2                     <pip>
+cycler                    0.12.1                    <pip>
+datasets                  3.4.1                     <pip>
+dill                      0.3.8                     <pip>
+distro                    1.9.0                     <pip>
+draftretriever            0.1.0                     <pip>
+exceptiongroup            1.3.0                     <pip>
+fastapi                   0.115.12                  <pip>
+ffmpy                     0.6.0                     <pip>
+filelock                  3.13.1                    <pip>
+fonttools                 4.58.3                    <pip>
+frozenlist                1.7.0                     <pip>
+fschat                    0.2.31                    <pip>
+fsspec                    2024.6.1                  <pip>
+gradio                    3.50.2                    <pip>
+gradio_client             0.6.1                     <pip>
+h11                       0.16.0                    <pip>
+hf-xet                    1.1.3                     <pip>
+httpcore                  1.0.9                     <pip>
+httpx                     0.28.1                    <pip>
+huggingface-hub           0.33.0                    <pip>
+idna                      3.10                      <pip>
+importlib_resources       6.5.2                     <pip>
+Jinja2                    3.1.3                     <pip>
+jsonschema                4.24.0                    <pip>
+jsonschema-specifications 2025.4.1                  <pip>
+kiwisolver                1.4.8                     <pip>
+latex2mathml              3.78.0                    <pip>
+ld_impl_linux-64          2.39                 hc81fddc_0    conda-forge
+libffi                    3.4.2                h7f98852_5    conda-forge
+libgcc-ng                 12.2.0              h65d4601_19    conda-forge
+libgomp                   12.2.0              h65d4601_19    conda-forge
+libnsl                    2.0.0                h7f98852_0    conda-forge
+libsqlite                 3.40.0               h753d276_0    conda-forge
+libuuid                   2.32.1            h7f98852_1000    conda-forge
+libzlib                   1.2.13               h166bdaf_4    conda-forge
+markdown-it-py            3.0.0                     <pip>
+markdown2                 2.5.3                     <pip>
+MarkupSafe                2.1.5                     <pip>
+matplotlib                3.10.3                    <pip>
+maturin                   0.12.0                    <pip>
+mdurl                     0.1.2                     <pip>
+mlx                       0.26.1                    <pip>
+mlx-lm                    0.25.3                    <pip>
+mpmath                    1.3.0                     <pip>
+multidict                 6.4.4                     <pip>
+multiprocess              0.70.16                   <pip>
+narwhals                  1.42.1                    <pip>
+ncurses                   6.3                  h27087fc_1    conda-forge
+networkx                  3.3                       <pip>
+nh3                       0.2.21                    <pip>
+numpy                     1.26.4                    <pip>
+openai                    0.28.0                    <pip>
+openssl                   3.0.7                h166bdaf_0    conda-forge
+orjson                    3.10.18                   <pip>
+packaging                 25.0                      <pip>
+pandas                    2.3.0                     <pip>
+pillow                    10.4.0                    <pip>
+pip                       22.3.1             pyhd8ed1ab_0    conda-forge
+prompt_toolkit            3.0.51                    <pip>
+propcache                 0.3.2                     <pip>
+protobuf                  3.19.0                    <pip>
+psutil                    7.0.0                     <pip>
+pyarrow                   20.0.0                    <pip>
+pydantic                  1.10.22                   <pip>
+pydub                     0.25.1                    <pip>
+Pygments                  2.19.1                    <pip>
+pyparsing                 3.2.3                     <pip>
+python                    3.10.6          ha86cf86_0_cpython    conda-forge
+python-dateutil           2.9.0.post0               <pip>
+python-multipart          0.0.20                    <pip>
+pytz                      2025.2                    <pip>
+PyYAML                    6.0.2                     <pip>
+readline                  8.1.2                h0f457ee_0    conda-forge
+referencing               0.36.2                    <pip>
+regex                     2024.11.6                 <pip>
+requests                  2.32.4                    <pip>
+rich                      14.0.0                    <pip>
+rpds-py                   0.25.1                    <pip>
+safetensors               0.5.3                     <pip>
+scipy                     1.15.3                    <pip>
+seaborn                   0.13.2                    <pip>
+semantic-version          2.10.0                    <pip>
+sentencepiece             0.2.0                     <pip>
+setuptools                65.5.1             pyhd8ed1ab_0    conda-forge
+shortuuid                 1.0.13                    <pip>
+six                       1.17.0                    <pip>
+sniffio                   1.3.1                     <pip>
+starlette                 0.46.2                    <pip>
+svgwrite                  1.4.3                     <pip>
+sympy                     1.13.3                    <pip>
+termcolor                 3.1.0                     <pip>
+tiktoken                  0.9.0                     <pip>
+tk                        8.6.12               h27826a3_0    conda-forge
+tokenizers                0.21.2                    <pip>
+toml                      0.10.2                    <pip>
+torch                     2.1.1+cu121               <pip>
+tqdm                      4.67.1                    <pip>
+transformers              4.53.1                    <pip>
+triton                    2.1.0                     <pip>
+typing_extensions         4.14.0                    <pip>
+tzdata                    2025.2                    <pip>
+tzdata                    2022f                h191b570_0    conda-forge
+urllib3                   2.4.0                     <pip>
+uvicorn                   0.34.3                    <pip>
+wavedrom                  2.0.3.post3               <pip>
+wcwidth                   0.2.13                    <pip>
+websockets                11.0.3                    <pip>
+wheel                     0.38.4             pyhd8ed1ab_0    conda-forge
+xxhash                    3.5.0                     <pip>
+xz                        5.2.6                h166bdaf_0    conda-forge
+yarl                      1.20.1                    <pip>
