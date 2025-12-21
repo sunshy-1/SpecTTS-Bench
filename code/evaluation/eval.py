@@ -95,7 +95,7 @@ def get_model_answers(
     ## ThinkTwice
     if think_twice and cot_model_flag:
         print(f"Reasoning under the \033[1m\033[94mThink Twice\033[0m framework (\033[1m\033[31mT={t}\033[0m) ..." if (t := kwargs.get('temperature')) is not None else None)
-        for _ in range(0):
+        for _ in range(3):
             torch.manual_seed(0)
             messages = []
             turns = []
@@ -294,8 +294,7 @@ def get_model_answers(
     ## BoN (N=4)
     elif BON and cot_model_flag:
         print(f"Reasoning under the \033[1m\033[94mBoN (N=4)\033[0m framework (\033[1m\033[31mT={t}\033[0m) ..." if (t := kwargs.get('temperature')) is not None else None)
-        # warmup
-        for _ in range(0):
+        for _ in range(3):
             torch.manual_seed(0)
             messages = []
             turns = []
