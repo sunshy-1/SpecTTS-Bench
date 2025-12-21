@@ -9,7 +9,7 @@
 # conda activate spb (torch==2.1.1+cu121, transformers==4.43.1, accelerate==0.21.0)
 
 export PYTHONWARNINGS="ignore"
-MODEL_PATH=/data0/sunshengyin/Spec-Bench/local_model
+MODEL_PATH=./local_model
 GPU_DEVICES=6
 MODEL_SIZE=8
 Eagle3_PATH=$MODEL_PATH/EAGLE3-DeepSeek-R1-Distill-LLaMA-${MODEL_SIZE}B
