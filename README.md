@@ -17,7 +17,9 @@ This is the Pytorch implementation for our *arXiv'25* paper: [**Scaling Up, Spee
 
 ![Framework](fig/framework.png)
 
-# Requirement
+Currently, SpecTTS-Bench supports the evaluation of the following open source models: [EAGLE-3](https://github.com/SafeAILab/EAGLE), [Speculative Sampling](https://huggingface.co/blog/assisted-generation), [Prompt Lookup Decoding](https://github.com/apoorvumang/prompt-lookup-decoding), [TokenRecycling](https://github.com/Luowaterbi/TokenRecycling), [REST](https://sites.google.com/view/rest-llm/), [Lookahead Decoding](https://lmsys.org/blog/2023-11-21-lookahead-decoding/), [PIA](https://github.com/alipay/PainlessInferenceAcceleration), [SAM-Decoding](https://github.com/hyx1999/SAM-Decoding), [SAM[EAGLE-3]](https://github.com/hyx1999/SAM-Decoding).
+
+## Requirement
 Install neccesary packages
 ```shell
 conda create -n specTTS python=3.10
@@ -27,14 +29,14 @@ transformers==4.53.1 # for Qwen-series
 ```
 > More details about the environment are provided in ```./code/environment_deepseek.txt``` and ```./code/environment_qwen3.txt```.
 
-# Run
+## Run
 ```shell
 cd code
 bash scripts/deepseek.sh # bash scripts/qwen3.sh
 ```
 > We provide the checkpoints for REST [here](https://portland-my.sharepoint.com/:f:/g/personal/shengysun4-c_my_cityu_edu_hk/EoZzeoHajTFDpgKrnsdI7xsB5Hpls0u9kHDUKdqa1MrEnA?e=I2NmXZ).
 
-# Model Weight
+## Model Weight
 Download corresponding model weights (if required) and modify the checkpoint path in ```code/scripts/*```.
 
 | Model | Type | URL |
