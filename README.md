@@ -7,6 +7,8 @@
 
 This is the Pytorch implementation for our *arXiv'25* paper: [**Scaling Up, Speeding Up: A Benchmark of Speculative Decoding for Efficient LLM Test-Time Scaling**](https://arxiv.org/abs/2509.04474). 
 
+![Framework](fig/radar_plot.png)
+
 ## Abstract
 <div style="text-align: justify;">
   Test-time scaling has emerged as a powerful paradigm for enhancing the reasoning capabilities of large language models (LLMs) by allocating additional computational resources during inference. However, this paradigm is inherently inefficient due to the generation of redundant and repetitive reasoning traces, leading to significant computational overhead. Speculative decoding offers a promising avenue for mitigating this inefficiency, yet its efficacy in the structured, repetition-rich context of test-time scaling remains largely unexplored. To bridge this gap, we introduce the first comprehensive benchmark designed to evaluate speculative decoding methods for accelerating LLM test-time scaling. Our benchmark provides consistent experimental protocols across representative test-time scaling paradigms (e.g., Best-of-N sampling and multi-round thinking), enabling a fair comparison of three major categories of speculative decoding: model-based, training-based, and n-gram-based methods. Extensive experiments reveal that simple n-gram-based methods effectively capture repetitive patterns, demonstrating unique potential in accelerating test-time scaling. This phenomenon demonstrates the value of integrating n-gram-based methods with model-based or training-based approaches to balance acceleration for both repetitive and diverse reasoning in test-time scaling. We hope this benchmark spurs further research on speculative decoding for test-time scaling, enabling faster and more practical reasoning in LLMs through better handling of repetitive and diverse reasoning paths.
@@ -28,7 +30,7 @@ transformers==4.53.1 # for Qwen-series
 # Run
 ```shell
 cd code
-bash code/scripts/deepseek.sh # bash code/scripts/qwen3.sh
+bash scripts/deepseek.sh # bash scripts/qwen3.sh
 ```
 > We provide the checkpoints for REST [here](https://portland-my.sharepoint.com/:f:/g/personal/shengysun4-c_my_cityu_edu_hk/EoZzeoHajTFDpgKrnsdI7xsB5Hpls0u9kHDUKdqa1MrEnA?e=I2NmXZ).
 
