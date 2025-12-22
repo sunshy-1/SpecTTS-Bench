@@ -54,7 +54,7 @@ Download corresponding model weights (if required) and modify the checkpoint pat
 
 ## Acknowledgment of Open-Source Code Contributions  
 
-  The code is based on the open-source repositories: [Spec-Bench](https://github.com/hemingkx/Spec-Bench), [EAFLE](https://github.com/SafeAILab/EAGLE), and [Medusa](https://github.com/FasterDecoding/Medusa), many thanks to the authors! 
+  The code is based on the open-source repositories: [Spec-Bench](https://github.com/hemingkx/Spec-Bench), [EAGLE](https://github.com/SafeAILab/EAGLE), and [Medusa](https://github.com/FasterDecoding/Medusa), many thanks to the authors! 
 
 You are welcome to cite our paper:
 ```
