@@ -20,7 +20,7 @@ This is the Pytorch implementation for our *arXiv'25* paper: [**Scaling Up, Spee
 Currently, SpecTTS-Bench supports the evaluation of the following open source models: [EAGLE-3](https://github.com/SafeAILab/EAGLE), [Speculative Sampling](https://huggingface.co/blog/assisted-generation), [Prompt Lookup Decoding](https://github.com/apoorvumang/prompt-lookup-decoding), [TokenRecycling](https://github.com/Luowaterbi/TokenRecycling), [REST](https://sites.google.com/view/rest-llm/), [Lookahead Decoding](https://lmsys.org/blog/2023-11-21-lookahead-decoding/), [PIA](https://github.com/alipay/PainlessInferenceAcceleration), [SAM-Decoding](https://github.com/hyx1999/SAM-Decoding), [SAM[EAGLE-3]](https://github.com/hyx1999/SAM-Decoding).
 
 ## Requirement
-Install neccesary packages
+Install neccesary packages.
 ```shell
 conda create -n specTTS python=3.10
 torch==2.1.1+cu121
