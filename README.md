@@ -34,7 +34,7 @@ transformers==4.53.1 # for Qwen-series
 cd code
 bash scripts/deepseek.sh # bash scripts/qwen3.sh
 ```
-> We provide the checkpoints for REST [here](https://portland-my.sharepoint.com/:f:/g/personal/shengysun4-c_my_cityu_edu_hk/EoZzeoHajTFDpgKrnsdI7xsB5Hpls0u9kHDUKdqa1MrEnA?e=I2NmXZ).
+> We provide the checkpoints for REST [here](https://portland-my.sharepoint.com/:u:/g/personal/shengysun4-c_my_cityu_edu_hk/IQDZBnMZqG5uRb_GCKFeZKhmAerr_EvudaLXpcx_9K9OE0A?e=CWeGAl).
 
 ## Model Weight
 Download corresponding model weights (if required) and modify the checkpoint path in ```code/scripts/*```.
