@@ -29,6 +29,23 @@ transformers==4.53.1 # for Qwen-series
 ```
 > More details about the environment are provided in ```./code/environment_deepseek.txt``` and ```./code/environment_qwen3.txt```.
 
+## Code Structure
+```
+SpecTTS-Bench/
+├── code/                        # Core implementation directory
+│   ├── scripts/                 # Shell scripts to execute the benchmarks
+│   │   ├── deepseek.sh          # 🚀 Run here: Script for DeepSeek-R1-Distill-Llama-8B
+│   │   └── qwen3.sh             # 🚀 Run here: Script for Qwen3 series
+│   ├── model/                   # Speculative decoding methods
+│   ├── evaluation/              # Launching inference with speculative decoding
+│   ├── data/                    # Reasoning Dataset
+│   ├── environment_deepseek.txt # Python dependency requirements for DeepSeek-R1-Distill-Llama-8B
+│   └── environment_qwen3.txt    # Python dependency requirements for Qwen3 series
+├── fig/                         # Figures and images for the README/Paper
+├── LICENSE                      # MIT License
+└── README.md                    # Main project documentation
+```
+
 ## Run
 ```shell
 cd code
