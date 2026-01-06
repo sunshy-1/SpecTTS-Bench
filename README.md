@@ -25,7 +25,7 @@ Install neccesary packages.
 conda create -n specTTS python=3.10
 torch==2.1.1+cu121
 transformers==4.43.1 # for DeepSeek-R1-Distill-Llama-8B
-transformers==4.53.1 # for Qwen-series
+transformers==4.53.1 # for Qwen3 series
 ```
 > More details about the environment are provided in ```./code/environment_deepseek.txt``` and ```./code/environment_qwen3.txt```.
 
