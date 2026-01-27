@@ -6,7 +6,7 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=PyTorch&logoColor=white)](https://pytorch.org/)
 ![](https://img.shields.io/github/stars/sunshy-1/SpecTTS-Bench?style=social) 
 
-This is the Pytorch implementation for our *arXiv'25* paper: [**Scaling Up, Speeding Up: A Benchmark of Speculative Decoding for Efficient LLM Test-Time Scaling**](https://arxiv.org/abs/2509.04474). 
+This is the Pytorch implementation for our *ICLR'26* paper: [**Scaling Up, Speeding Up: A Benchmark of Speculative Decoding for Efficient LLM Test-Time Scaling**](https://arxiv.org/abs/2509.04474). 
 
 ![Framework](fig/radar_plot.png)
 
