@@ -1,14 +1,17 @@
 
 <div align="center">
-<img src="fig/logo.png" alt="logo" width="2200"/>
+<img src="fig/logo.png" alt="logo" width="2200" style="display:block; margin-bottom:0;"/>
+<img src="https://img.shields.io/badge/version-1.0.1-6395ED" alt="version"/>
+<img src="https://img.shields.io/badge/license-MIT-9ACD32" alt="license"/>
+<a href="https://arxiv.org/abs/2501.08001"><img src="https://img.shields.io/badge/Preprint'25-EE4C2C" alt="preprint"/></a>
+<a href="https://iclr.cc/"><img src="https://img.shields.io/badge/ICLR-2026-B57EDC" alt="ICLR"/></a>
+<a href="https://pytorch.org/"><img src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=PyTorch&logoColor=white" alt="PyTorch"/></a>
+<img src="https://img.shields.io/github/stars/sunshy-1/SpecTTS-Bench?style=social" alt="stars"/>
 </div>
 
-![version](https://img.shields.io/badge/version-1.0.1-6395ED)
-![version](https://img.shields.io/badge/license-MIT-9ACD32)
-[![preprint](https://img.shields.io/badge/Preprint'25-EE4C2C)](https://arxiv.org/abs/2501.08001)
-[![ICLR](https://img.shields.io/badge/ICLR-2026-B57EDC)](https://iclr.cc/)
-[![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=PyTorch&logoColor=white)](https://pytorch.org/)
-![](https://img.shields.io/github/stars/sunshy-1/SpecTTS-Bench?style=social) 
+<br/>
+
+
 
 This is the Pytorch implementation for our *ICLR'26* paper: [**Scaling Up, Speeding Up: A Benchmark of Speculative Decoding for Efficient LLM Test-Time Scaling**](https://arxiv.org/abs/2509.04474). 
 
