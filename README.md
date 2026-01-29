@@ -1,4 +1,7 @@
-## Scaling Up, Speeding Up: A Benchmark of Speculative Decoding for Efficient LLM Test-Time Scaling
+
+<div align="center">
+<img src="fig/logo.png" alt="logo" width="2200"/>
+</div>
 
 ![version](https://img.shields.io/badge/version-1.0.1-6395ED)
 ![version](https://img.shields.io/badge/license-MIT-9ACD32)
