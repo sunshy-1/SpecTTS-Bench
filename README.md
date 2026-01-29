@@ -1,26 +1,4 @@
-<div align="center">
-  <!-- 添加 margin: 0 auto 确保表格整体居中 -->
-  <table border="0" cellspacing="0" cellpadding="0" style="border:none; border-collapse:collapse; margin: 0 auto;">
-    <tr>
-      <td style="border:none; padding:0 16px 0 0; vertical-align:middle;">
-        <img src="fig/logo.jpg" height="140" alt="logo" />
-      </td>
-      <!-- 关键修改： -->
-      <!-- 1. 移除了 text-align:center (放在内部元素控制更好) -->
-      <!-- 2. 确保 vertical-align: middle -->
-      <td style="border:none; padding:0; vertical-align:middle;">
-        <!-- 关键修改： -->
-        <!-- 1. display: block 或 inline-block 确保 h2 占据空间 -->
-        <!-- 2. width: 100% 确保它占满单元格宽度 -->
-        <!-- 3. text-align: center 强制内部文字居中 -->
-        <h2 style="margin:0; text-align:center; line-height: 1.2;">
-          <i>Scaling Up, Speeding Up: A Benchmark of Speculative<br/>
-          Decoding for Efficient LLM Test-Time Scaling</i>
-        </h2>
-      </td>
-    </tr>
-  </table>
-</div>
+## Scaling Up, Speeding Up: A Benchmark of Speculative Decoding for Efficient LLM Test-Time Scaling
 
 ![version](https://img.shields.io/badge/version-1.0.1-6395ED)
 ![version](https://img.shields.io/badge/license-MIT-9ACD32)
